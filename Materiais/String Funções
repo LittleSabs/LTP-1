@@ -1,1 +1,31 @@
-
+texto = 'ABCD'
+ 
+print(type(texto))
+print(len(texto))
+print(texto[0])
+print(texto[0:11])
+print(texto[-10:-5])
+print(texto.upper())
+print(texto.lower())
+print(texto.capitalize())
+print(texto.title())
+print(texto.swapcase())
+print(texto.strip())
+print(texto.strip('@'))
+print(texto.replace('linguagens','Códigos'))
+print(texto.replace(' ','_'))
+print(texto.replace(' ',''))
+print('técnicas' in texto)
+print(texto.find('P'))
+print(texto.find('técnicas'))
+print(texto.rfind('técnicas'))
+print(texto.split())
+print(texto.split("e"))
+texto2 = texto.split()
+print(type(texto2))
+a = ['Hello', 'World']
+print(texto.join(a))
+print(texto.isnumeric())
+print(texto.isalpha())
+print(texto.isalnum())
+print(texto.
