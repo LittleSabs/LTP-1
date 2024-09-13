@@ -11,37 +11,3 @@ for cliente in cadastro:
  
 print(cadastro[1])
 print(cadastro[1][3])
-
-#cliente = {}
-''''
-cliente = dict(id =0, nome ='Pedro', mensalidade= 249.99, ativo=True, altura= 1.78, peso=86 )
-chave= ['id', 'nome', 'mensalidade', 'ativo','altura', 'peso']
-cliente= dict.fromkeys(chave, 0)
-'''
-
-cliente = {
-    'id':0,
-    'nome': 'Pedro',
-    'mensalidade': 249.9,
-    'ativo': True,
-    'altura': 1.78,
-    'peso':86
-}
-print(cliente['nome'])
-print(cliente.get('nome'))
-
-print(cliente.items())
-for chave, valor in cliente.items():
-    print(f'{chave} : {valor}')
-
-print(cliente.keys())
-for chave in cliente.keys():
-    print(chave)
-
-print(cliente.values())
-for valor in cliente.values():
-    print (valor)
-
-cliente.update({'ativo': False})
-cliente.upate({'emdereço': 'Quadra 2'})
-print(cliente)
