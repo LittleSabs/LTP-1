@@ -13,7 +13,6 @@ y = float(input("Informe a coordenada y: "))
 
 ponto1 = Ponto(x, y)
 
-desenhar_ponto(ponto1)
 t.penup()
 desenhar_ponto(ponto1)
 t.dot(5, 'pink')
